@@ -63,7 +63,7 @@ parflow2026
 
 ```bash
 cd /workspace
-python your_ParFlow_examples.py
+python3 your_ParFlow_examples.py
 ```
 
 或在 Notebook 中直接运行对应的 `.ipynb` 文件。
