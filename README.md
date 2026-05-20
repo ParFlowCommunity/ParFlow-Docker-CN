@@ -35,10 +35,7 @@ docker pull parflowcommunity/parflow-docker-cn:v1.0
 
 ```bash
 cd /你的数据目录路径
-docker run -d --rm \
-  -v ./:/workspace \
-  -p 8888:8888 \
-  parflowcommunity/parflow-docker-cn:v1.0
+docker run -d --rm -v ./:/workspace -p 8888:8888 parflowcommunity/parflow-docker-cn:v1.0
 ```
 
 ### 第三步：打开 JupyterLab
